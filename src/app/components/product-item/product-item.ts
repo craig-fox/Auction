@@ -4,6 +4,7 @@ import {Product} from 'app/services/product-service';
 
 @Component({
   selector: 'auction-product-item',
+  styleUrls: ['product-item.css'],
   templateUrl: 'product-item.html'
 })
 
