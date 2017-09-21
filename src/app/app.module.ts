@@ -33,7 +33,7 @@ import {HashLocationStrategy, LocationStrategy} from '@angular/common';
     HttpModule,
     RouterModule.forRoot([
       {path: '', component: HomeComponent},
-      {path: 'products/:prodTitle', component: ProductDetailComponent}
+      {path: 'products/:productId', component: ProductDetailComponent}
     ])
   ],
   providers: [ProductService,
